@@ -3,30 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="/assets/reset.css" />
+    <link rel="stylesheet" href="/assets/style.css" />
 </head>
 <body>
     <header>
-        <p>John Gotheridge</p>
-        <nav>
-            <ul>
-                <li><a href="#About">About Me</a></li>
-                <li><a href="#Work">My Work</a></li>
-                <li><a href="#Contact">Contact Me</a></li>
-                <li><a href="#Resume">Resume</a></li>
-            </ul>
+        <h1>John Gotheridge</h1>
+        <nav class="start">
+                <a class="start" href="#About">About Me</a>
+                <a class="start" href="#Work">My Work</a>
+                <a class="start" href="#Contact">Contact Me</a>
+                <a class="start" href="#Resume">Resume</a>
         </nav>
     </header>
-    <section id="About">
-        <div>
-            <h1>About Me</h1>
-            <p></p>
+    <section id="divider">
+        <div id="box">
+            <pre>There is beauty in every disaster, if you are clever enough to find it.
+                                                    -Brandon Sanderson in Elantris
+            </pre>
         </div>
     </section>
-    <section id="Work">
-        <div>
-            <h1>My Work</h1>
-            <div>
+    <section>
+        <div id="About">
+            <h2 class="brick">About Me</h2>
+            <p class="card"></p>
+        </div>
+    </section>
+    <section>
+        <div id="Work">
+            <h2 class="brick">My Work</h2>
+            <div class="card">
                 <ul>
                     <a href="placeholder">
                         <img src="placeholder" alt="Example of project 1">
@@ -55,10 +62,10 @@
             </div>
         </div>
     </section>
-    <section id="Contact">
-        <div>
-            <h1>Contact Me</h1>
-            <div>
+    <section>
+        <div id="Contact">
+            <h2 class="brick">Contact Me</h2>
+            <div class="card">
                 <ul>
                     <li>Cell number: 630-479-2510</li>
                     <li>Github: <a href="https://github.com/gooseman789">Github account</a></li>
@@ -67,9 +74,12 @@
             </div>
         </div>
     </section>
-    <section id="Resume">
-        <div>
-            <h1>Resume</h1>
+    <section>
+        <div id="Resume">
+            <h2 class="brick">Resume</h2>
+            <a class="card" href="placeholder">
+                <img src="placeholder" alt="Example of Resume">
+            </a>
         </div>
     </section>
 </body>
