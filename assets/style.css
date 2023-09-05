@@ -9,7 +9,7 @@ body{
     background-color: rgb(50, 77, 65);
 }
 h1 {
-    font-size: 300%;
+    font-size: 400%;
     display: inline;
     color: white;
     margin-left: 2%;
@@ -23,13 +23,13 @@ nav {
     
 }
 
-a:link {
+a:link, a:visited {
     text-decoration: none;
     color: rgb(253, 195, 118);
 }
 
 .start {
-    top: 10px;
+    top: 20px;
     margin: 0px 15px;
 }
 
@@ -39,6 +39,7 @@ a:link {
     background-repeat: repeat-x;
     height: 200px;
     align-content: end;
+    margin-top: 0%;
 }
 
 #box {
@@ -56,8 +57,14 @@ a:link {
     flex-direction: row;
     width: 100%;
     justify-content: space-evenly;
+
 }
 
+.token {
+    height: 200px;
+    width: 400px;
+    flex: 1 0 100%;
+}
 
 pre {
     height: 200px;
@@ -65,23 +72,72 @@ pre {
     color:  rgb(253, 195, 118);
 }
 
-h2, p {
-    font-size: 200%;
+h2 {
+    font-size: 400%;
     display:block;
+    padding: 1%;
+    color: rgb(91, 182, 152);
 }
 
 .brick {
     display: block;
     border-right: 5px solid antiquewhite;
-    flex: 1 0 20%;
+    flex: 1 0 17%;
     margin-right: 2%;
+    text-align: right;
+}
+
+section {
+    margin: 1% 0%;
 }
 
 .card {
-    display: inline;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
     flex: 1 0 78%;
 }
 
 h2 {
     text-indent: 2%;
 }
+
+li {
+    display: inline;
+    padding: 15px;
+}
+
+a:link > img {
+    opacity: 55%;
+}
+
+a:link > img:hover {
+    opacity: 100%;
+}
+
+#snippet {
+    height: 200px;
+    max-width: 100%;
+    padding: 20px;
+}
+
+p {
+    font-size: 140%;
+    width: 90%;
+    line-height: 150%;
+    color: rgb(214, 193, 165);
+
+}
+
+#address {
+    display: flex;
+    justify-content: center;
+    font-size: 130%;
+}
+
+#style {
+    height: 100%;
+    line-height: 500%;
+    font-size: 130%
+}
+
